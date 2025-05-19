@@ -18,7 +18,7 @@ Start with a header section that includes the following basic details:
 - **Subject**: [Introduction to Moblie Application Development]
 
 ## Links
-- **GitHub Repository**: [Repository URL]
+- **GitHub Repository**: [https://github.com/Mufura-Tshipama/imad5112-assignment-2-Mufura-Tshipama]
 - **YouTube Video**: [https://youtu.be/UvNs9WgjxBo]
 ```
 
