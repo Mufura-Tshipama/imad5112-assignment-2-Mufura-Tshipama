@@ -19,12 +19,12 @@ Start with a header section that includes the following basic details:
 
 ## Links
 - **GitHub Repository**: [Repository URL]
-- **YouTube Video**: [YouTube Video Link]
+- **YouTube Video**: [https://youtu.be/UvNs9WgjxBo]
 ```
 
 Why:
 ---
--I Mufura developed this app as a  daily decision-making related to meals. The project was created  for individuals who  find themselves undecided about what to eat during different times of the day.ALL that the users needs to do is to input the time of day (e.g., morning, afternoon, evening, or night)
+-I Mufura developed this app a quiz app related to the user choosing between true of false . The project was created  for individuals who enjoy answering historical questions 
 
 ---
 
@@ -34,14 +34,14 @@ Why:
 ```markdown
 ## Project Overview
 
-The **[Meal App]** is a mobile application developed as part of an assignment in the [CIMAD5112 2025 FT] subject. This application was created using **Kotlin** and **Android Studio**. The app's primary purpose is to [Find meals for the user depending on the time the user inputs , e.g.When the user inputs the time of the day for instance Morning the app will provide a meal that you can eat in the morning,].
+The **[Quiz App]** is a mobile application developed as part of an assignment in the [CIMAD5112 2025 FT] subject. This application was created using **Kotlin** and **Android Studio**. The app's primary purpose is to [show questions and users have to choose betwwen true or false and move on to the next question and the app will display the final socer of the user at the end].
 
 The app was developed to meet the requirements of the assignment, which includes creating a functional mobile app and utilizing GitHub for version control and CI/CD automation using GitHub Actions.
 ```
 
 Why:
 ----
--This app is a meal suggestion app designed to help users in thier deicion making.By recommending meals based on the time of day they input (e.g., morning, afternoon, evening, or night). This app is easy to use and it works well.It provides users with a quick and engaging way to plan meals.Making it easy for the user to plan what the are going to eat and also saves thier time from picking meals .
+-This app was made to help user answer questions and know if they are correct or not.By recommending true or false question to the user based on the time of day they input (e.g., the user will enter the app and a true or false question will be displayed at the user). This app is easy to use and it works well.It provides users with a quick and engaging way to test their knowledge.
 
 ---
 
@@ -52,14 +52,14 @@ Why:
 ## T
 
 ### Purpose:
-The main goal of this app is to [Serves as a meal suggestion app, helping users decide what to eat based on the time of day they input. By making the decision-making process easy for them,the app can also help with better meal planning and also healthier habits.]
+The main goal of this app is to [ Dsplay true or false question to the user and test the users knowledge maybe about historical events to see if they know a bit about the past ,this app can also be used for engaging with friends and famliy and test each others knowelegde.]
 
 ### Key Features:
-- Feature 1: [Time-Based Meal Suggestions,User input the time of day (e.g., morning, afternoon, evening, or night), "and the app provides meal recommendations depending on the time of the day."]
-- Feature 2: [Error Handling, the user receives clear feedback if invalid input is provide e.g if user inputs anything besides the times of the day it will show an error message,"]
-- Feature 3: [Optional, another feature, e.g., "Push notifications for reminders"]
+- Feature 1: [Display true of false questions to the user."]
+- Feature 2: [user cant go to the next question without answering the currernt question their on"]
+- Feature 3: [when you are finshed with the quiz the appp will show you your socer and leave you with a message ethier to try aging or a well done text"]
 
-These features aim to provide [A fast way to choose your meals depending on the time of the day , e.g., an easy-to-use platform for decicion making making when it comes to having your meals ].
+These features aim to provide [to help the user has their answer the quiz app].
 ```
 
 Why:
@@ -76,11 +76,11 @@ Why:
 
 The design of the **[Meal app ]** was based on the following key considerations:
 
-1. **User Experience (UX)**: the app was crafted to provide an and easy navigation interface, ensuring users can quickly input the time of day and receive meal suggestions effortlessly.
+1. **User Experience (UX)**: the app was crafted to provide an and easy navigation interface, ensuring users can quickly choose between true or false and move to the next question.
    
-2. **Responsiveness**:Meal suggestions are given to you based on the time of day, offering users appropriate meal options such as breakfast, lunch, dinner, or snacks.
+2. **Responsiveness**:explanations are given when the user chosses the answer explanig why it is false or true 
    
-3. **Simplicity**:  The design of the app is easy to fuction , focusing solely on the core feature of meal suggestion, avoiding unnecessary clutter.
+3. **Simplicity**:  The design of the app is easy to fuction , focusing solely on the true or false buttons and questions.
    
 4. **Performance**: The app is fast to respond it has given minimal impact on device resources like battery and memory
 ```
@@ -121,16 +121,16 @@ Why:
 ## Screenshots
 
 ### App Screenshots:
-![![Screenshot_2025 04 05_20 04 55 909](https://github.com/user-attachments/assets/b0376704-5cd8-4585-aab1-552c62707b7c)
-](path_to_screenshot_1.png)
-*Caption for screenshot 1: [This is the home screen of the app it has two buttons and a plain text and one text view ]*
+[question screen](https://github.com/user-attachments/assets/9a2e3c00-1f52-4043-962c-e55c7c7ff645)
 
-![![Screenshot_2025 04 05_20 04 55 90909](https://github.com/user-attachments/assets/b2ca9248-46aa-48a5-8a67-2fd21912d061)
-](path_to_screenshot_2.png)
-*Caption for screenshot 2: [This is what happenes when the user inputs the time of the day the app will suggest a meal depending on the time of the day that you input ]*
+*Caption for screenshot 1: [This is the home screen of the app it has two buttons and a  text view![FRONT PAGE](https://github.com/user-attachments/assets/ca3ce2d8-2387-458b-b396-e455b2feb05e)
+ ]*
+
+
+*Caption for screenshot 2: [This is what happenes when the user gets to the display screen ]*
 
 ### Video Demo:
-A video showcasing the app's functionality can be viewed here: [YouTube Video Link].
+A video showcasing the app's functionality can be viewed here: [https://youtu.be/UvNs9WgjxBo].
 ```
 
 Why:
@@ -150,8 +150,8 @@ During the development of this project, I encountered several challenges, includ
 1. **Challenge 1**: [Briefly describe a challenge you faced, e.g.,The first time i tried to run my app it didnt not work because i did not add the ids for the button and the plain text ]
    - **Solution**: [How you solved the challenge, e.g., "I went back to my mainactivity to add the ids for the button and the plain text"]
    
-2. **Challenge 2**: [Describe another challenge, e.g., "I wanted to add a second screen to my app when you click the suugestion button it will bring you to another screen but it didnt work i had to restart my app 3 times because of that when i tried to run my app it was not lanching "]
-   - **Solution**: [to solve the problem i just deleted the second screen and start all over with my app.]
+2. **Challenge 2**: [Describe another challenge, e.g., "I wanted to add colour at the background but i didnt not know how to and i did a lot of mistakes causing my app to crush "]
+   - **Solution**: [i went on youtube to find out how to add a bavkground colour .]
 
 From these challenges, I learned important lessons that i always have to make sure that everything in my mainactivity has no error and i learnt how to code and improve my code as times goes on 
 ```
@@ -170,9 +170,9 @@ Why:
 
 While the current version of the app provides the core functionality, there are several features that could be added in the future, including:
 
-1. **Feature 1**: ["Allowing users to input the exact time and not only the time of the day so it can give you a quick meal e.g.,"when it is morning and you dont input morning but the time the app will know that it is morning"]
-2. **Feature 2**: [Integrating with a cloud database for storing user data, e.g., "the app willl be able to save your histro to know the most suggested time of day that the user inputs "]
-3. **Feature 3**: [Adding a reminder that will remind them that they have not yet asked for a meal because if the user has not opened the app for an hour, e.g., "when you dont open the app in the morning for an hour after you wake up the app will assume that you have not yet eaten and it will send a reminder to not forget to have your breakfast "]
+1. **Feature 1**: ["when users choose true they have to explain why their are chossing it"]
+2. **Feature 2**: [Integrating with a cloud database for storing user data, e.g., "the app willl be able to save your histro to know your highest socer "]
+3. **Feature 3**: [add more questions than just 5"]
 
 These enhancements would improve the app’s usability and make it even more versatile for end-users.
 ```
@@ -191,7 +191,7 @@ Why:
 
 1. [Reference 1: E.g., *Android Developers World,Android Beginner- How to clear Edittext Data on Button click? #learn_tutorial3,https://youtu.be/IzN5Rkq25yw?si=QKPzmx5ktuKATAld, [AccessedJune 13, 2020].
 
-2. [Reference 2: Any relevant papers, documentation, or tutorials.]
+2. [Reference 2: CST Learning,How To Change Android Studio Background Color To Black | How To Change Android Studio Theme color,https://youtu.be/JnFOwtf8x8c?si=C7KgswhC6MAad5W0, [Accessed October 21, 2022].]
 ```
 
 Why:
@@ -206,9 +206,11 @@ Why:
 ```markdown
 ## List of Figures
 
-- **Figure 1**: ![Screenshot_2025 04 05_20 04 55 909](https://github.com/user-attachments/assets/28a570f9-a691-4135-a4fa-0522cf9a459b)
+- **Figure 1**: ![![FRONT PAGE](https://github.com/user-attachments/assets/66ce9a7c-8525-4182-a6c3-50b332b47a34)
 
-- **Figure 2**: ![Screenshot_2025 04 05_20 04 55 90909](https://github.com/user-attachments/assets/012304ae-0ab5-46ae-9c66-01e2580221a7)
+
+- **Figure 2**: ![![question screen](https://github.com/user-attachments/assets/ff5d9937-2951-43ef-a4a9-3e3ddd20e2bb)
+
 
 ```
 
@@ -226,40 +228,8 @@ Why:
 
 ## Disclosure of AI Usage in My Assessment
 
-In the development of this project, I have used generative AI tools to assist in various parts of the assignment. Below is a detailed disclosure of where and how these tools were used:
+In the development of this project, I have not used generative AI tools to assist me in  various parts of the assignment.
 
-### 1. **Section(s) in which Generative AI was used:**
-- **Question 2.2**: Used AI for brainstorming ideas for the app's features.
-- **Part 5**: Assisted in creating code snippets for setting up GitHub Actions workflows.
-- **Part 3**: Used AI to help improve the grammar and clarity of the report.
-
-### 2. **Name of AI Tool(s) Used:**
-- **ChatGPT** (OpenAI)
-- **GitHub Copilot** (GitHub)
-
-### 3. **Purpose/Intention Behind Use:**
-- **Brainstorming**: Used ChatGPT to generate ideas for the app’s features and functionality.
-- **Meaning Making**: Used AI to clarify some concepts and gain a better understanding of how certain technologies (e.g., GitHub Actions) work.
-- **Initial Investigation**: Utilized AI to conduct research on best practices for Android app development and GitHub Actions setup.
-- **Code Assistance**: GitHub Copilot was used to assist in writing specific parts of the code, such as setting up GitHub Actions and working with Gradle.
-- **Correcting Grammar and Spelling**: ChatGPT helped review and correct the grammar and clarity of my project report.
-
-### 4. **Date(s) in Which Generative AI Was Used:**
-- **Question 2.2**: AI used on **March 5, 2025** for brainstorming feature ideas.
-- **Part 5**: AI used on **March 8, 2025** to help set up GitHub Actions.
-- **Part 3**: AI used on **March 10, 2025** for reviewing the final report.
-
-### 5. **Link to the AI Chat(s) or Screenshots:**
-- **Chat 1 (Brainstorming App Features)**: [Link to the AI conversation/chat](insert_link_here)  
-  *(Screenshot/Link to Chat: AI provided feature ideas for app development)*
-
-- **Chat 2 (GitHub Actions Workflow Setup)**: [Link to the AI conversation/chat](insert_link_here)  
-  *(Screenshot/Link to Chat: AI assisted with configuring GitHub Actions for the project)*
-
-- **Chat 3 (Grammar Review)**: [Link to the AI conversation/chat](insert_link_here)  
-  *(Screenshot/Link to Chat: AI helped in reviewing and correcting the report’s grammar)*
-
-```
 
 Why:
 ----
