@@ -10,7 +10,7 @@
 Start with a header section that includes the following basic details:
 
 ```markdown
-# [Meal App]
+# [Quiz app]
 - **Developer**: [Mufura Tshipama]
 - **Student Number**: [ST10496960]
 - **Group**: [2]
